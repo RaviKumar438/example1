@@ -1,0 +1,13 @@
+aws_region         = "us-east-1"
+vpc_cidr           = "10.0.0.0/16"
+availability_zones = ["us-east-1a", "us-east-1b"]
+ami_id             = "ami-066784287e358dad1" # Replace with a valid AMI ID
+instance_type      = "t2.small"
+Master-servers     = ["server1", "server2"]
+vpc_name           = "main_vpc"
+SG_allow-ssh       = "Main_SG"
+igw_name           = "Main_igw"
+public-route-table = "Main_routable"
+public-subnet      = "public_subnete"
+instance_names     = ["master", "slave"]
+#key_name           = "Main-Practice-keypair.pem"
